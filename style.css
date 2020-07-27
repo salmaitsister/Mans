@@ -1,0 +1,72 @@
+.heading h1 {
+    font-size: 30px;
+    margin-top: 5px;
+}
+.calculator {
+    width: 400px;
+    height: 420px;
+    margin-top: 30px;
+    box-shadow: 0 4px 4px grey;
+}
+.result {
+    width: 400px;
+    height: 100px;
+}
+body {
+    background: #61D8D3;
+    background: -webkit-linear-gradient(top left, #61D8D3, #FFFFFF);
+    background: -moz-linear-gradient(top left, #61D8D3, #FFFFFF);
+    background: linear-gradient(to bottom right, #61D8D3, #FFFFFF);
+background-repeat: no-repeat;
+
+}
+.container {
+    height: 100vh;
+}
+input{
+    width: 96.7px;
+    height: 60px;
+    border: 1px solid grey;
+    box-shadow: 0 4px 4px lightgray;
+    background-color: whitesmoke;
+    font-weight: 700;
+    
+}
+#division {
+    background-color: teal;
+    color: white;
+}
+#multiply {
+    background-color: rgba(0, 128, 128, 0.728);
+    color: white;
+    
+}
+#plus {
+    background-color: teal;
+    color: white;
+}
+#minus {
+    background-color: rgba(0, 128, 128, 0.728);
+    color: white;
+}
+
+#clear {
+    width: 200px;
+    background-color: rgb(215, 78, 101);
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    height: 80px;
+}
+#output {
+    width: 194px;
+    background-color: rgb(240, 240, 44);
+    color: white;
+    font-weight: 700;
+    font-size: 28px; 
+    height: 80px;
+}
+
+.container img {
+    width: 600px;
+}
